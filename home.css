@@ -94,3 +94,46 @@ font-size: 1.3em;
     color: #5C1B1B;
     background-color:  #5C1B1B;
 }
+#pop-collections .row1
+{
+    overflow: hidden;
+}
+#pop-collections .row1 .col-1
+{
+    min-height: 20em;
+}
+
+#pop-collections .row1 .col-2
+{
+    min-height: 20em;
+    display: grid;
+    grid-auto-rows: 1fr;
+    background-color: rgb(187, 125, 125);
+}
+#pop-collections .row1 .col-2 .row
+{
+    overflow: hidden;
+}
+#pop-collections .row1 .col-2 .row img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#pop-collections .row-rated
+{
+    min-height: 20em;
+    width: 90%;
+    margin:auto;
+} 
+#pop-collections .row-rated p
+{
+    text-align: center;
+    font-size: 1.3em;  
+    padding:3%;
+}
+#pop-collections .row-rated .image
+{
+     max-height: 20em; 
+    overflow: hidden;
+}
