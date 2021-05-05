@@ -170,3 +170,93 @@ color: white;
 {
     margin-right: 1em;
 }
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 600px) 
+{
+
+    /*=============header section==================== */
+    #header
+    {
+    min-height: 90vh;
+    }
+    
+    #navbar .row
+    {
+        height: 80vh;
+    }
+    #header .row .col1
+    {
+        max-width: 100%;
+        overflow: hidden;
+    }
+   #header .row .col2
+    {
+        padding: 20%;
+    }
+   
+    #header .row .col2 h1
+    {
+        font-size: 1.7em;
+    } 
+    #header .row .col2 p
+    {
+        font-size: 13px;
+    }
+    #header .row .col2 button
+    {
+        background-color: #5C1B1B;
+        color: #fff;
+        font-size: 1em;
+        border-radius: 1.2em;
+        padding: 0.5em 1em;
+        border: none;
+    }
+    /* ============pop collections===================== */
+    #pop-collections .title1 h2, .title2 h2
+    {
+        font-size: 1.2em;
+    }
+
+    #pop-collections .title1
+    {
+        padding: 2%;
+    }
+    #pop-collections .title2
+    {
+        margin-top: 10%;
+        padding: 2%;
+    }
+    #pop-collections .title1 hr
+    {
+        width: 30%;
+        height:2px;;
+    }
+    #pop-collections .title2 hr
+    {
+        width: 21%;
+        height:2px;
+    }
+    /* ============footer===================== */
+   
+    #footer .col1, .col2
+    {
+    margin-top: 10%;
+    }
+    #footer h3
+    {
+    font-size: 1.3em;
+    }
+    #footer .li
+    {
+        font-size: 1em;
+        margin-top: 1.2em;
+    }
+    #footer .li .fa
+    {
+        margin-right: 1em;
+    }
+
+
+
+}
