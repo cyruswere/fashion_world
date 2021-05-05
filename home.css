@@ -69,3 +69,28 @@ font-size: 1.3em;
     text-align: center;
     padding: 2%;
 }
+#pop-collections .title2
+    {
+        text-align: center;
+        margin-top: 5%;
+        padding: 2%;
+    }
+#pop-collections .title1 h2, .title2 h2
+{
+    font-weight: 800;
+}
+
+#pop-collections .title1 hr
+{
+    width: 26%;
+    height:5px;
+    color: #5C1B1B;
+    background-color:  #5C1B1B;
+}
+#pop-collections .title2 hr
+{
+    width: 18%;
+    height:5px;
+    color: #5C1B1B;
+    background-color:  #5C1B1B;
+}
