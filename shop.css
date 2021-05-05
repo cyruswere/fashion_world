@@ -89,3 +89,31 @@ font-size: 1.3em;
     width: 100%;
     height: 100%;
 }
+    /* ============segments=================== */
+   
+    #segments h1
+    {
+        font-size:25px;
+        font-weight: 800  
+    }
+    #segments .shop-headers
+    {
+        text-align: center;
+    }
+    #segments .shop-headers button
+    {
+        font-size: 1.2em; 
+    }
+    #segments .segment-buttons
+    {
+        margin-top: 5%;
+    }
+    
+    #segments .segment-buttons .col button
+    {
+        margin-top: 5%;
+    }
+    .hot-items-container
+    {
+        margin-top: 7%;
+    }
