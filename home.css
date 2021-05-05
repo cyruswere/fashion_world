@@ -56,3 +56,16 @@ font-size: 1.3em;
     padding: 0.5em 1em;
     border: none;
 }
+
+/* ===========popular-collections================= */
+#pop-collections
+{
+    min-height: 80em;
+    padding: 0% auto 0%;
+    margin-bottom: 5%;
+}
+#pop-collections .title1
+{
+    text-align: center;
+    padding: 2%;
+}
