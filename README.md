@@ -10,6 +10,8 @@ There is also a shop, designers page to show  top designers, login and register 
 * Go live or open the index.html file with chrome
 * And you are all done
 The application has no backend. Just frontend.
+## Live server
+* You can view the web live on https://cyruswere.github.io/fashion_world/home.html
 ## Known Bugs
 The application works perfectly well, no bugs.
 ## Technologies Used
