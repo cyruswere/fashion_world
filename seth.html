@@ -1,42 +1,184 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fashion World</title>
-    <link rel="stylesheet" href="seth.css">
-</head>
-<body>
-    <header>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    </header>
-    <div>
-        <h1>Meet The top Designers.</h1>
-        <div>
-            <img src="beadtop-by-poisa.jpg" alt="Vivienne Tea">
-            <p>
-                The eponymous founder of Vivienne Taa label is a very new but great addition to the Kenyan fashion industry. She took up fashion as a hobby while working for Kenya Airways. When she was let go in 2016, fashion was not just a fall back plan, it was her passion, so she took to it with gusto. Within a few months, her label was showcasing her designs on major runways in Kenya including The Nairobi Fashion Week. The label exudes elegance, heavily incorporating the African culture.
-            </p>
-            <p>
-                View Designs
-            </p>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+     <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" >
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+     <!-- css link -->
+     <link rel="stylesheet" type="text/css" href="seth.css" >
+    <title>Fashion</title>
+  </head>
+  <body>
+    <!-- start of navbar -->
+  <section id="header">
+    <div class="container" >
+      <nav class="navbar navbar-expand-lg navbar-light bg-white mt-2 ">
+        <a class="navbar-brand" href="index.html"><span>TK</span>Fashions</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="designers.html">Designers <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="shop.html">Shop <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="exhibitions.html">Exhibitions <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="register.html">Register <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="login.html">Login <span class="sr-only">(current)</span></a>
+            </li>
+           
+          </ul>
         </div>
-        <div>
-            <img src="" alt="">
+      </nav>
+ 
+    </div>
+  </section>
+   <!--end of  navbar -->
+
+
+   
+   <div class="container designers">
+    <h1>Meet The top Designers.</h1>
+    <div class="row designRow">
+        <div class="col-md-4 col-12 column1">
+            <img class="img-fluid" src="vivian.jpg" alt="Vivienne Tea">
+        </div>
+        <div class="col-md-8 col-12 column2">
+            <h3>Vivienne Taa</h3>
+            <p>
+              The eponymous founder of Vivienne Taa label is a very new but great addition to the Kenyan fashion industry. She took up fashion as a hobby while working for Kenya Airways. When she was let go in 2016, fashion was not just a fall back plan, it was her passion, so she took to it with gusto. Within a few months, her label was showcasing her designs on major runways in Kenya including The Nairobi Fashion Week. The label exudes elegance, heavily incorporating the African culture.
+            </p>
+            <button class="btn">View Designs</button>
+        </div>   
+    </div>
+
+    <div class="row designRow">
+        <div class="col-md-4 col-12 column1">
+            <img class="img-fluid" src="patricia.jpg" alt="patricia">
+        </div>
+        <div class="col-md-8 col-12 column2">
+            <h3>Patricia Mbela</h3>
             <p>
                 Patricia Mbela is a household name in the Kenyan fashion scene. Her brand, Poisa, produces both men and women’s collections, including a knitwear line and jewellery. Her ‘Wearable Art’, as she likes to call it, has been showcased all over the world. Perhaps her most notable work is the Kenya Airways Millennium uniform design, selected from hundreds of others in a competition. Among many other awards, she was awarded the 2014 Top Kenyan Fashion and Jewellery Designer at the Kenyan Fashion Week.
             </p>
-            <p>
-                View Design
-            </p>
+            <button class="btn">View Designs</button>
+        </div>   
+    </div>
+
+    <div class="row designRow">
+        <div class="col-md-4 col-12 column1">
+            <img class="img-fluid" src="wamboi.jpg" alt="wamboi">
         </div>
-        <div>
-            <img src="" alt="">
+        <div class="col-md-8 col-12 column2">
+            <h3>Wambui Mukenyi</h3>
             <p>
                 Though self-taught, Wambui Mukenyi has gone on to receive national recognition. She founded the WM Label in 2009, starting out with custom-made outfits then branching out to African bridal wear. Today, the label is focused on ready-to-wear outfits and bridal wear, using luxurious fabrics with a hint of African inspiration.
             </p>
-        </div>
+            <button class="btn">View Designs</button>
+        </div>   
     </div>
-</body>
+
+    <div class="row designRow">
+        <div class="col-md-4 col-12 column1">
+            <img class="img-fluid" src="faith.jpg" alt="faith">
+        </div>
+        <div class="col-md-8 col-12 column2">
+            <h3>Faith Migwi</h3>
+            <p>
+                Faith Migwi of Manciny Designs is another self-taught designer with a great reputation in the Kenyan fashion industry. She started her journey in 2012 founding 4 different brands; Eqo-chic, an eco-friendly brand that used recycled materials to make bags, Manciny, a men’s wear brand, Nyadhi, a women’s wear brand followed by The Urban Gentleman that provides styling (and design) services for men.
+            </p>
+            <button class="btn">View Designs</button>
+        </div>   
+    </div>
+
+    <div class="row designRow">
+        <div class="col-md-4 col-12 column1">
+            <img class="img-fluid" src="Vaishali.jpg" alt="Vaishali Morjaria">
+        </div>
+        <div class="col-md-8 col-12 column2">
+            <h3>Vaishali Morjaria</h3>
+            <p>
+                The founder of Vaishali Creations brings a rare combination of the African and Indian cultures to create an exquisite contemporary line. She derives inspiration from both cultures, as well as nature to create jewellery designs and clothing lines for both men and women. Having won many awards, her designs have gained international recognition and praise from the media. Locally, she scooped the 2016 Designer of the Year (Women’s Wear) at the Jumia Glamour Awards.
+            </p>
+            <button class="btn">View Designs</button>
+        </div>   
+    </div>
+
+    <div class="row designRow">
+        <div class="col-md-4 col-12 column1">
+            <img class="img-fluid" src="john.jpg" alt="John Kaveke">
+        </div>
+        <div class="col-md-8 col-12 column2">
+            <h3>John Kaveke</h3>
+            <p>
+                The founder of Vaishali Creations brings a rare combination of the African and Indian cultures to create an exquisite contemporary line. She derives inspiration from both cultures, as well as nature to create jewellery designs and clothing lines for both men and women. Having won many awards, her designs have gained international recognition and praise from the media. Locally, she scooped the 2016 Designer of the Year (Women’s Wear) at the Jumia Glamour Awards.
+            </p>
+            <button class="btn">View Designs</button>
+        </div>   
+    </div>
+
+    <div class="view-moreBtn">
+        <button class="btn">View More</button>
+    </div>
+</div>
+
+
+
+  <!-- start of footer -->
+  <section id="footer">
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col-md-6 col-12 col1">
+          <h3>QUICK LINKS</h3>
+            <div class="li"><a href="exhibitions.html">Latest Exhibitions</a></div>
+            <div class="li"><a href="exhibitions.html">Shop with us</a></div>
+            <div class="li">
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <div class="li">Designed by Kelvin Kipchumba Koech</div>
+        </div>
+        <div class="col-md-6 col-12 col2">
+          <h3>CONTACT INFORMATION</h3>
+            <div class="li">Luthuli Avenue, opposite Carlcare Nairobi, Kenya</div>
+            <div class="li">+254725801772</div>
+            <div class="li">contact@topkenyanfashions.co.ke</div>
+            <div class="li"> 
+              <form class="form-inline">
+                <div class="form-group mx-sm-0 mb-2">
+                  <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-secondary mx-sm-2 mb-2">Subscribe</button>
+              </form>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+   <!-- end of footer -->
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
 </html>
